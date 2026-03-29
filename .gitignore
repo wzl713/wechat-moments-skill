@@ -1,0 +1,32 @@
+# Python 编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 运行时截图（临时文件，不需要上传）
+scripts/current.png
+scripts/current_moments.png
+scripts/content_analyze.png
+scripts/wechat_full.png
+scripts/moments_full.png
+scripts/dots_search.png
+scripts/dots_found.png
+scripts/matched.png
+scripts/after_enter_moments.png
+scripts/after_scroll_*.png
+scripts/scroll_*.png
+scripts/v2_scroll_*.png
+scripts/learn_*.png
+scripts/step*.png
+scripts/v2_step*.png
+scripts/test_result.png
+scripts/found_moments.png
+scripts/icon_new.png
+scripts/1.png
+scripts/2.png
+scripts/8.png
+
+# 系统文件
+.DS_Store
+Thumbs.db
