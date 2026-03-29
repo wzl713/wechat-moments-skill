@@ -4,28 +4,24 @@ __pycache__/
 *.pyo
 *.pyd
 
-# 运行时截图（临时文件，不需要上传）
-scripts/current.png
-scripts/current_moments.png
+# 运行时产生的截图（脚本运行过程中自动保存，不需要上传）
+# 注意：scripts/ 下的 4 个模板图标（moments_icon.png, two_dots_correct.png,
+#        comment_icon.png, send_icon.png）是必需文件，不在排除列表中
+scripts/after_*.png
 scripts/content_analyze.png
-scripts/wechat_full.png
-scripts/moments_full.png
-scripts/dots_search.png
-scripts/dots_found.png
-scripts/matched.png
-scripts/after_enter_moments.png
-scripts/after_scroll_*.png
-scripts/scroll_*.png
-scripts/v2_scroll_*.png
+scripts/current*.png
+scripts/dots_*.png
+scripts/found_*.png
 scripts/learn_*.png
+scripts/matched.png
+scripts/moments_full.png
+scripts/scroll_*.png
 scripts/step*.png
-scripts/v2_step*.png
 scripts/test_result.png
-scripts/found_moments.png
+scripts/v2_*.png
+scripts/wechat_full.png
 scripts/icon_new.png
-scripts/1.png
-scripts/2.png
-scripts/8.png
+scripts/[0-9]*.png
 
 # 系统文件
 .DS_Store
